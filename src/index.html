@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/_head.htm',{
+"title":"Главная"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/_header.htm',{})
+		<main class="page">
+			<div class="utp">
+				<img src="@img/first-bg.webp" alt="" class="utp__bg">
+				<div class="dot dot--one" data-aos="fade-left"><a href="#">Точечный массаж</a></div>
+				<div class="dot dot--two" data-aos="fade-left" data-aos-delay="200"><a href="#">Косметический массаж</a>
+				</div>
+				<div class="dot dot--three" data-aos="fade-left" data-aos-delay="400"><a href="#">Аппаратная терапия</a>
+				</div>
+				<div class="dot dot--four" data-aos="fade-left" data-aos-delay="300"><a href="#">PRP терапия</a></div>
+				<div class="dot dot--five" data-aos="fade-left" data-aos-delay="500"><a href="#">Anti AGE терапия</a>
+				</div>
+				<div class="utp__container">
+					<div class="utp__body">
+						<h1 class="utp__title" data-aos="fade-up">Лаборатория <br>косметических и массажных услуг</h1>
+						<p class="utp__subtitle" data-aos="fade-up">
+							Лаборатория косметических и массажных услуг будет помощником в жизни любого человека,
+							который следит за своим здоровьем и внешним видом
+						</p>
+						<div class="utp__btns">
+							<button type="button" class="utp__btn" data-popup=".popup--call" data-aos="fade-up"
+								data-aos-delay="200">Записаться на
+								приём</button>
+							<button type="button" class="utp__btn" data-popup=".popup--consult" data-aos="fade-up"
+								data-aos-delay="250">Онлайн
+								консультация</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="service">
+				<i class="fa-brands fa-pagelines service--one icon"></i>
+				<i class="fa-brands fa-pagelines service--two icon"></i>
+				<div class="service__container">
+					<div class="service__top">
+						<h2 class="service__title" data-aos="fade">Массажные услуги</h2>
+						<a href="#" class="service__more" data-aos="fade">Смотреть все услуги <i
+								class="fa-solid fa-list"></i></a>
+					</div>
+
+					<div class="service__body">
+						<div class="service__card card-service" data-aos="fade-up" data-aos-delay="">
+							<div class="card-service__img">
+								<img src="@img/usluga-1.jpg" alt="">
+							</div>
+							<div class="card-service__content">
+								<h3>Классический оздоровительный массаж</h3>
+								<p>
+									техника мануального дозированного воздействия на кожу, подлежащие ткани, мышцы,
+									связочный аппарат, органы. Специалист проводит воздействие путем разминания,
+									поглаживания и разнонаправленных растираний. В результате стимулируется
+									кровообращение, улучшается иннервация органов и тканей, лимфоток.
+								</p>
+								<button type="button" class="card-service__btn">Записаться</button>
+							</div>
+						</div>
+						<div class="service__card card-service" data-aos="fade-up" data-aos-delay="100">
+							<div class="card-service__img">
+								<img src="@img/usluga-2.jpg" alt="">
+							</div>
+							<div class="card-service__content card-service__content--pt">
+								<h3>Лечебный массаж</h3>
+								<p>
+									Лечебный массаж комбинируют с медикаментозной терапией и используют для лечения
+									болезней нервной, мочеполовой и других систем. Лечебный реабилитационный массаж —
+									способ восстановить функциональность организма после травм и хирургических
+									вмешательств.
+								</p>
+								<button type="button" class="card-service__btn">Записаться</button>
+							</div>
+						</div>
+
+						<div class="service__card card-service" data-aos="fade-up" data-aos-delay="150">
+							<div class="card-service__img">
+								<img src="@img/usluga-3.jpg" alt="">
+							</div>
+							<div class="card-service__content card-service__content--pt">
+								<h3>Точечный массаж</h3>
+								<p>
+									это механическое воздействие пальцами рук на биологически активные точки на теле
+									человека. Наибольшую популярность получили две техники такого воздействия: китайская
+									называемая акупунктурой и японская – шиацу.
+								</p>
+								<button type="button" class="card-service__btn">Записаться</button>
+							</div>
+						</div>
+						<div class="service__card card-service" data-aos="fade-up" data-aos-delay="200">
+							<div class="card-service__img">
+								<img src="@img/usluga-4.jpg" alt="">
+							</div>
+							<div class="card-service__content">
+								<h3>Аппаратный. <br> LPG массаж</h3>
+								<p>
+									современная аппаратная методика, основанная на сочетании вакуумного и
+									вибровоздействия на
+									лицо или тело.
+									Принцип основан на механическом воздействии на лицо или тело специальных насадок
+									аппарата. Оборудование для процедуры представляет собой установку с манипулами,
+									оснащенными роликами на концах. Насадки захватывают кожу на высокой скорости, а
+									вакуум обеспечивает дополнительный эффект присасывания. Благодаря комплексному
+									воздействию обеспечивается не только подтяжка кожи, но и разрушение жировых
+									отложений.
+
+								</p>
+								<button type="button" class="card-service__btn">Записаться</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="service__top service__top--two">
+						<h2 class="service__title" data-aos="fade" data-aos-delay="">Косметические услуги</h2>
+						<a href="#" class="service__more" data-aos="fade" data-aos-delay="">Смотреть все услуги <i
+								class="fa-solid fa-list"></i></a>
+					</div>
+					<div class="service__body">
+						<div class="service__card card-service" data-aos="fade-up" data-aos-delay="">
+							<div class="card-service__img">
+								<img src="@img/usluga-5.jpg" alt="">
+							</div>
+							<div class="card-service__content">
+								<h3>Химический <br>пилинг кожи</h3>
+								<p>
+									процедура воздействия на внешний слой кожного покрова специальными
+									веществами-эксфолиантами, которые эффективно удаляют омертвевшие клетки и тем самым
+									стимулируют обновление кожных покровов. Различают три основных вида пилинга.
+									● Поверхностный. Представляет собой щадящее воздействие, в ходе которого очищение
+									происходит на уровне нескольких слоев ороговевших клеток. <br>
+									● Серединный. Такой химический пилинг для лица позволяет воздействовать на базальную
+									мембрану, а также полностью разрушить роговой слой кожи. <br>
+									● Глубокий. Рассчитан на обновление всей толщины кожи, отшелушивает эпидермис,
+									влияет на базальную мембрану. Является контролируемым химическим ожогом, после
+									которого происходит интенсивный процесс регенерации тканей. Проводится только в
+									условиях стационара и имеет долгосрочный эффект
+
+								</p>
+								<button type="button" class="card-service__btn">Записаться</button>
+							</div>
+						</div>
+						<div class="service__card card-service" data-aos="fade-up" data-aos-delay="100">
+							<div class="card-service__img">
+								<img src="@img/usluga-6.jpg" alt="">
+							</div>
+							<div class="card-service__content card-service__content--pt">
+								<h3>PRP терапия</h3>
+								<p>
+									инъекционная процедура, предполагающая введение
+									обогащенной тромбоцитами плазмы пациента в место на его теле, требующее скорейшего
+									заживления, то есть направленная на ускорение регенерации и стимуляции роста
+									собственных клеток организма. Метод достаточно инновационный, однако уже на данном
+									этапе продемонстрировал положительные результаты при лечении спортивных травм
+									(разрывов суставных тканей). Нашел широкое применение в косметологии и трихологии.
+									<br>
+									● Суть способа не в том, чтобы лечить воздействием извне, как это
+									делают лекарственные препараты, а в том, чтобы заставить собственный организм
+									вырабатывать нужное количество клеток для восстановления тканей.
+									Процедура PRP-терапии состоит из нескольких этапов: <br>
+									● Забор крови пациента. Осуществляется из локтевой вены, объем может составлять от
+									20 до 100 мл, в зависимости от обрабатываемой площади тела и длительности курса
+									● Изготовление обогащенной плазмы. Выполняется в два этапа путем центрифугирования:
+									первый раз из крови удаляются тяжелые форменные элементы
+								</p>
+								<button type="button" class="card-service__btn">Записаться</button>
+							</div>
+						</div>
+
+						<div class="service__card card-service" data-aos="fade-up" data-aos-delay="150">
+							<div class="card-service__img">
+								<img src="@img/usluga-7.jpg" alt="">
+							</div>
+							<div class="card-service__content card-service__content--pt">
+								<h3>Аппаратная терапия</h3>
+								<p>
+									<b>Фототерапия</b>
+									- ее проводят с помощью аппарата, излучающего импульсы определенной мощности. Эта
+									процедура позволяет воздействовать на глубокие слои кожи, повышая ее тонус и
+									эластичность. С помощью фототерапии можно лечить акне, устранять сосудистые
+									звездочки на коже, пигментацию, морщины, а также нежелательные волосы. Побочные
+									эффекты от процедуры случаются редко, но при индивидуальной непереносимости может
+									появляться гиперемия, отеки, гематомы, ожоги, рубцы или гиперпигментация.
+
+								</p>
+								<button type="button" class="card-service__btn">Записаться</button>
+							</div>
+						</div>
+						<div class="service__card card-service" data-aos="fade-up" data-aos-delay="200">
+							<div class="card-service__img">
+								<img src="@img/usluga-8.jpg" alt="">
+							</div>
+							<div class="card-service__content card-service__content--pt">
+								<h3>ANTI-AGE терапия</h3>
+								<p>
+									<b>Ультразвуковой лифтинг</b> <br>
+									Для омоложения кожи в наши дни часто используют технологию ультразвука. Процедура
+									активизирует естественные процессы регенерации кожи, помогает повысить ее упругость
+									и эластичность. По эффективности УЗ-лифтинг часто сравнивают с хирургическими
+									методами подтяжки лица. Побочные эффекты от процедуры – это обычно покраснение, отек
+									и повышенная чувствительность некоторых участков кожи. Эти симптомы проходят спустя
+									5-7 дней.
+
+								</p>
+								<button type="button" class="card-service__btn">Записаться</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="about">
+				<div class="about__container">
+					<div class="about__body">
+						<div class="about__col">
+							<h2 class="about__title" data-aos="fade-up" data-aos-delay="">О нас</h2>
+							<p class="about__text" data-aos="fade-up" data-aos-delay="100">
+								Салон поможет избавиться людям от
+								комплексов, от боли в теле, подобрать нужную технику массажа для любой зоны, а также
+								предоставит возможность проработки всех триггерных зон оборудованием нового поколения.
+								Косметические услуги будут помощником для зоны лица и коррекции тела с помощью
+								инъекционных процедур, пилингов, массажей и аппаратами без хирургического вмешательства.
+							</p>
+							<p class="about__item" data-aos="fade-up" data-aos-delay="200">
+								<i class="fa-brands fa-pagelines"></i>
+								Используем натуральный состав продукции
+								(не тестируется на животных)
+							</p>
+							<p class="about__item" data-aos="fade-up" data-aos-delay="300">
+								<i class="fa-brands fa-pagelines"></i>
+								Медицинский персонал со стажем более 5 лет
+							</p>
+							<p class="about__item" data-aos="fade-up" data-aos-delay="400">
+								<i class="fa-brands fa-pagelines"></i>
+								Совмещенная лаборатория
+							</p>
+							<a href="#" class="about__link" data-aos="fade-up" data-aos-delay="500">Узнать больше</a>
+						</div>
+						<div class="about__col">
+							<div class="about__img" data-aos="fade" data-aos-delay="200">
+								<img src="@img/about.jpeg" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="advantages">
+				<div class="advantages__container">
+					<div class="advantages__title" data-aos="fade-up" data-aos-delay="">Преимущества</div>
+					<div class="advantages__body">
+						<div class="advantages__card" data-aos="fade-up" data-aos-delay="">
+							<div class="advantages__icon">
+								<i class="fa-brands fa-pagelines"></i>
+							</div>
+							<div class="advantages__content">
+								Cовмещенная лаборатория
+							</div>
+						</div>
+						<div class="advantages__card" data-aos="fade-up" data-aos-delay="">
+							<div class="advantages__icon">
+								<i class="fa-brands fa-pagelines"></i>
+							</div>
+							<div class="advantages__content">
+								Повышение квалификации персонала
+							</div>
+						</div>
+						<div class="advantages__card" data-aos="fade-up" data-aos-delay="">
+							<div class="advantages__icon">
+								<i class="fa-brands fa-pagelines"></i>
+							</div>
+							<div class="advantages__content">
+								Лицензированный персонал
+							</div>
+						</div>
+						<div class="advantages__card" data-aos="fade-up" data-aos-delay="">
+							<div class="advantages__icon">
+								<i class="fa-brands fa-pagelines"></i>
+							</div>
+							<div class="advantages__content">
+								Натуральный состав продукции <br>
+								<span>(не тестируется на животных)</span>
+							</div>
+						</div>
+						<div class="advantages__card" data-aos="fade-up" data-aos-delay="">
+							<div class="advantages__icon">
+								<i class="fa-brands fa-pagelines"></i>
+							</div>
+							<div class="advantages__content">
+								Онлайн / офлайн-консультация
+							</div>
+						</div>
+						<div class="advantages__card" data-aos="fade-up" data-aos-delay="">
+							<div class="advantages__icon">
+								<i class="fa-brands fa-pagelines"></i>
+							</div>
+							<div class="advantages__content">
+								Лицензия на оборудование
+							</div>
+						</div>
+						<div class="advantages__card" data-aos="fade-up" data-aos-delay="">
+							<div class="advantages__icon">
+								<i class="fa-brands fa-pagelines"></i>
+							</div>
+							<div class="advantages__content">
+								Продажа уходовых средств
+							</div>
+						</div>
+						<div class="advantages__card" data-aos="fade-up" data-aos-delay="">
+							<div class="advantages__icon">
+								<i class="fa-brands fa-pagelines"></i>
+							</div>
+							<div class="advantages__content">
+								Предоставление рекомендаций
+							</div>
+						</div>
+						<div class="advantages__card" data-aos="fade-up" data-aos-delay="">
+							<div class="advantages__icon">
+								<i class="fa-brands fa-pagelines"></i>
+							</div>
+							<div class="advantages__content">
+								Комфортная и обустроенная лаборатория
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="laboratory">
+				<div class="laboratory__container">
+					<div class="laboratory__body">
+						<h2 class="laboratory__title" data-aos="fade-up" data-aos-delay="100">Совмещенная лаборатория
+						</h2>
+						<div class="laboratory__content" data-aos="fade-up" data-aos-delay="200">
+							<div class="laboratory__slider swiper">
+								<div class="laboratory__wrapper swiper-wrapper">
+									<div class="laboratory__slide swiper-slide"><img src="@img/lab-1.jpg" alt=""></div>
+									<div class="laboratory__slide swiper-slide"><img src="@img/lab-2.jpg" alt=""></div>
+									<div class="laboratory__slide swiper-slide"><img src="@img/lab-3.jpg" alt=""></div>
+									<div class="laboratory__slide swiper-slide"><img src="@img/lab-4.jpg" alt=""></div>
+									<div class="laboratory__slide swiper-slide"><img src="@img/lab-1.jpg" alt=""></div>
+									<div class="laboratory__slide swiper-slide"><img src="@img/lab-3.jpg" alt=""></div>
+								</div>
+								<div class="swiper-button-prev"></div>
+								<div class="swiper-button-next"></div>
+								<div class="swiper-pagination"></div>
+							</div>
+						</div>
+						<div class="laboratory__text" data-aos="fade-up" data-aos-delay="300">
+							<span>Лекарственный мониторинг</span> – группа анализов, которые назначаются для определения
+							концентрации
+							определенных веществ в крови, а также других биологических жидкостях. Сделать эти тесты
+							можно в лаборатории косметических и массажных услуг.
+						</div>
+						<div class="laboratory__text" data-aos="fade-up" data-aos-delay="400">
+							Применяемые/лекарственные препараты оказывают положительное действие только в том случае,
+							если дозировка подобрана правильно. Ее превышение может привести к возникновению неприятных,
+							а порой и опасных побочных эффектов. Если же концентрация активных фармакологических
+							компонентов в крови ниже необходимого уровня, то лекарство просто не выполнит свою задачу.
+							Лекарственный мониторинг призван определять концентрацию действующих веществ в крови.
+						</div>
+						<div class="laboratory__text" data-aos="fade-up" data-aos-delay="500">
+							Такое исследование необходимо для контроля безопасности и эффективности проводимого сеанса.
+							Рекомендованные схемы лечения и дозировки учитывают индивидуальные особенности конкретных
+							людей. Проведение эспресс-анализа позволяет корректировать режимы дозирования, чтобы
+							избежать негативных последствий приема сильнодействующих или потенциально опасных
+							препаратов.
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="contact">
+				<div class="contact__container">
+					<div class="contact__body">
+						<div class="contact__col">
+							<h2 class="contact__title" data-aos="fade-up" data-aos-delay="">Контакты</h2>
+							<p class="contact__subtitle" data-aos="fade-up" data-aos-delay="100">
+								Благодарим за проявленный интерес к лаборатории косметических и массажных услуг. Для
+								того чтобы связаться с нами, выберите подходящий для Вас вариант. Заполните форму
+								обратной связи, и
+								мы с вами свяжемся!
+							</p>
+							<a href="mailto:alyona.rostova.02@mail.ru" class="contact__link" data-aos="fade-up"
+								data-aos-delay="200">
+								<i class="fa-solid fa-at"></i>
+								alyona.rostova.02@mail.ru
+							</a>
+							<a href="tel:+7 996 205-86-81" class="contact__link" data-aos="fade-up"
+								data-aos-delay="300">
+								<i class="fa-solid fa-mobile-screen-button"> </i>
+								+7 996 205-86-81
+							</a>
+							<a href="https://vk.com/alya.rostova" class="contact__link" data-aos="fade-up"
+								data-aos-delay="400">
+								<i class="fa-brands fa-vk"></i>
+								@alyona.rostova
+							</a>
+						</div>
+						<div class="contact__col">
+							<form action="#" class="contact__form form" data-aos="fade-up" data-aos-delay="200">
+								<input type="text" class="form__input" placeholder="Ваше имя">
+								<input type="text" class="form__input" placeholder="Ваш номер">
+								<input type="date" class="form__input form__input--date">
+								<select name="time" id="time" class="form__input--time">
+									<option hidden>Выберите героя</option>
+									<option value="9:00">9:00</option>
+									<option value="10:00">10:00</option>
+								</select>
+								<button class="form__submit">Отправить</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		@@include('html/_footer.htm',{})
+	</div>
+	@@include('html/_popup.htm',{})
+	@@include('html/_js.htm',{})
+</body>
+
+</html>
